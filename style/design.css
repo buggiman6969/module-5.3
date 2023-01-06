@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+.primary-colour{
+    color: #FD6E0A;
+}
+/* header and nav */
+
+
+.header{
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-image: url(/images/header_bg.png) ,url(/images/developer.png);
+    background-position: bottom right, left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px ;
+}
+.navtittle{
+    font-weight: 800;
+    font-size: 45px;
+    
+}
+
+nav li{
+    list-style: none;
+    margin-left : 50px;
+    
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.primary-btn{
+    color: honeydew;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.secondery-btn {
+    color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    background: whitesmoke;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+/* bannar style */
+.banner{
+    display: flex;
+    margin:0px 200px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner-sub-tittle{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-ditels{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* ---------------main--------------------- */
+.about{
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    text-align: center;
+    padding: 131px 156px;
+}
+.me{
+    color:#181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about-ditals{
+    color: #757575;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.info-tittle{
+    font-size: 20px;
+    color: #757575;
+}
+.info-discription{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+/*=============================== What i do================ */
+
+.what-i-do{
+    background-color: #FFF8F3;
+    margin: 130px 230px;
+    text-align: center;
+    padding: 131px 156px;
+
+}
+
+.section-tittle{
+    color:#181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-details{
+    color: #757575;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+
+.skills-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.skill-tittle{
+    font-weight: 700;
+    Font-size: 20px;
+    margin-top: 20px;
+}
+.skill-discription{
+    color: #757575;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+/* =============resume------------------ */
+
+/* .resume{
+
+} */
+.resume-contant{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 20px;
+    gap: 24px;
+    margin: 70px 300px;
+}
+
+.resume-tittle{
+    margin-bottom: 30px;
+} 
+.resume-item{
+    padding: 50px;
+    font-weight: 400;
+}
+
+.tittle{
+    color: #181818;
+}
+.sub-tittle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.discription{
+    font-size: 14px;
+    color: #757575;
+}
+.cv{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50PX;
+}
+/* =================footer contact=============================== */
+
+.contact{
+    background-color: #FFF8F3;
+}
+.footer{
+    display: flex;
+    padding-bottom: 300px;
+    justify-content: space-around;
+}
+.social{
+    padding: 200PX;
+}
+.form{
+    padding: 200px;
+}
+.social-tittle{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.social-discription{
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 20px;
+   margin-right: 50px;
+}
+.form{
+    margin-right: 200px;
+}
+.form-input , input{
+    border: 0;
+    margin-bottom: 20px;
+    height: 64px;
+    padding: 20px;
+    width: 100%;
+    
+}
+.form-input ,textarea{
+    border: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+ 
+}
